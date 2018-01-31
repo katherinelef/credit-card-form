@@ -60,8 +60,10 @@ $(document).ready(function() {
 * FUNCION GLOBAL
 ```
   function soloNumeros(input) {
+```
 
-    * VARIABLE LOCAL
+* VARIABLE LOCAL
+```
     var regex = /^[0-9]+$/;
     if (regex.test(input)) {
       return input;
@@ -90,7 +92,7 @@ $(document).ready(function() {
     var sumaTotal = 0;
 ```
 
-      ```
+  ```
       for (var index = creditCardNumber.length - 1; index >= 0; index--) {
         arr.push(creditCardNumber[index]);
       }
@@ -107,29 +109,29 @@ $(document).ready(function() {
 
       if (sumaTotal % 10 === 0) {
         console.log('Es una tarjeta valida');
-      ```
+  ```
 
-  * FUNCION LOCAL
-  * STATEMENT
+* FUNCION LOCAL
+* STATEMENT
 
-        ```
+    ```
         activeButton();
       } else {
         console.log('No es un numero valido');
-        ```
+    ```
 
-  * FUNCION LOCAL
-  * STATEMENT
+* FUNCION LOCAL
+* STATEMENT
 
-        ```
+    ```
         desactiveButton();
       }
     } else {
       console.log('Verifique el numero de su tarjeta');
       ```
 
-  * FUNCION LOCAL
-  * STATEMENT
+* FUNCION LOCAL
+* STATEMENT
 
   ```
       desactiveButton();
