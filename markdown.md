@@ -31,7 +31,7 @@ $(document).ready(function() {
 ```
   function activeButton() {
 ```
-    * CLOUSURE
+* CLOUSURE
   ```
     $buttonNext.attr('disabled', false);
   }
@@ -42,7 +42,7 @@ $(document).ready(function() {
   function desactiveButton() {
 ```
 
-    * CLOUSURE
+* CLOUSURE
 ```
     $buttonNext.attr('disabled', true);
   }
@@ -74,18 +74,18 @@ $(document).ready(function() {
   function isValidCreditCard(numberCard) {
 ```
 
-    * VARIABLE LOCAL
+* VARIABLE LOCAL
 ```
     var creditCardNumber = soloNumeros(longitud(numberCard));
     if (creditCardNumber !== undefined) {
 ```
 
-    * VARIABLE LOCAL
+* VARIABLE LOCAL
 ```
     var arr = [];
 ```
 
-    * VARIABLE LOCAL
+* VARIABLE LOCAL
 ```
     var sumaTotal = 0;
 ```
@@ -109,8 +109,8 @@ $(document).ready(function() {
         console.log('Es una tarjeta valida');
       ```
 
-        * FUNCION LOCAL
-        * STATEMENT
+  * FUNCION LOCAL
+  * STATEMENT
 
         ```
         activeButton();
@@ -118,8 +118,8 @@ $(document).ready(function() {
         console.log('No es un numero valido');
         ```
 
-        * FUNCION LOCAL
-        * STATEMENT
+  * FUNCION LOCAL
+  * STATEMENT
 
         ```
         desactiveButton();
@@ -128,8 +128,8 @@ $(document).ready(function() {
       console.log('Verifique el numero de su tarjeta');
       ```
 
-        * FUNCION LOCAL
-        * STATEMENT
+  * FUNCION LOCAL
+  * STATEMENT
 
   ```
       desactiveButton();
